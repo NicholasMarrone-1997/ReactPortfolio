@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Nav from '../Header/Nav';
 import './About.css';
 
@@ -20,6 +21,7 @@ const About = () => {
             developer.</p>
         </div>
       </div>
+      <Footer />
       </div>
     )
 }

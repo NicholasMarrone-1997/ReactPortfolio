@@ -3,6 +3,7 @@ import './Portfolio.css';
 import data from './data.js';
 import Nav from '../Header/Nav';
 import Work from './Work';
+import Footer from '../Footer/Footer';
 
 class Portfolio extends React.Component {
     constructor() {
@@ -25,6 +26,7 @@ class Portfolio extends React.Component {
             deployed={data.deployed}
             />
           })}
+        <Footer />
         </div>
       )
     }

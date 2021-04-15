@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Nav from '../Header/Nav';
-import './Resume.css';
 import { Document, Page } from 'react-pdf';
 
 export default class Resume extends Component {

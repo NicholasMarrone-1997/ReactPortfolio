@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Nav from '../Header/Nav';
 import './Contact.css';
 
@@ -23,6 +24,7 @@ const Contact = () => {
           </div>
           </div>
         </div>
+        <Footer />
       </div>
       </div>
     )
