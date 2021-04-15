@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Nav from '../Header/Nav';
 import './Resume.css';
 import { Document, Page } from 'react-pdf';
-import resumePDF from '../Resume/resume.pdf';
 
 export default class Resume extends Component {
     state = { numPages: null, pageNumber: 1};
@@ -19,7 +18,7 @@ render() {
         <Nav />
         <div style={{ width: 600 }}>
           <Document
-            file={resumePDF}
+            file={`/resume.pdf`}
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
             <Page pageNumber={pageNumber} width={600} />
