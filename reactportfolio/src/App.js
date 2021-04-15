@@ -31,10 +31,10 @@ function App() {
            <Route path="/portfolio">
             <Portfolio />
           </Route>
-          {/*<Route path="/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/resume">
+          {/* <Route path="/resume">
             <Resume />
           </Route> */}
         </Switch>

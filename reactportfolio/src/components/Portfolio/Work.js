@@ -3,7 +3,7 @@ import React from 'react';
 const Work = (props) => {
     return(
 <div className="row">
-    <div className="portfolio-pic col-sm-2">
+    <div className="portfolio-pic col">
         <h3>{props.title}</h3>
         <img title={props.title}
             src={props.image} alt={props.alt} /> 
