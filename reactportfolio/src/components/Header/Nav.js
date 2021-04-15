@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import "../Header/Nav.css"
 
 const Nav = () => {
     return (
@@ -6,24 +8,14 @@ const Nav = () => {
       <div className="col-12">
         <h1 className="logo">Nicholas Marrone</h1>
         <ul className="nav-links">
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#resume">Resume</a></li>
+          <li><Link to="/about">About Me</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/resume">Resume</Link></li>
         </ul>
       </div>
     </nav>
     )
 }
-
-// const BooksList = ({books}) => {
-//     return (
-//       <ul>
-//         {books.map(book => {
-//           return <li>book</li>
-//         })}
-//       </ul>
-//     )
-//    }
 
 export default Nav;
