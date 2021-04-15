@@ -34,9 +34,9 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          {/* <Route path="/resume">
+          <Route path="/resume">
             <Resume />
-          </Route> */}
+          </Route>
         </Switch>
     </Router>
   );

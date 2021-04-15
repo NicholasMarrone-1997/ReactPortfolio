@@ -1,7 +1,9 @@
 .links-me button{
     padding: 40px 48px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
+    width: 100%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
-    
+    background: rgb(43, 44, 44);
+    color: white;
+    margin: 2px;
 }
