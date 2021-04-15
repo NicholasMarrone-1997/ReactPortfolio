@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+/* *********** Resetting Browser Defaults and applying Font *********** */
+html, *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Play', sans-serif;
+}
+
+/* *********** Get rid of list bullet points *********** */
+ul{
+    list-style: none;
+}
+
+/* *********** Get rid of link underline *********** */
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,44 @@
+/* *********** Navigation Bar *********** */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(43, 44, 44);
+}
+
+.logo{
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding-left: 20px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo, .nav-links {
+    list-style: none;
+    text-transform: uppercase;
+    color: rgb(116, 5, 14);
+}
+
+.logo a, .nav-links a {
+    text-decoration: none;
+    letter-spacing: 8px;
+}
+  
+.nav-links a {
+    display: block;
+    padding: 20px;
+    color: white;
+  }
+
+  /* *********** navigation media queries *********** */
+@media all and (max-width: 990px) {
+    .nav {
+        flex-direction: column;
+    }
+  }
