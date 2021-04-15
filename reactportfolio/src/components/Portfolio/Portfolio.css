@@ -4,4 +4,6 @@ img {
     justify-content: center;
     align-items: center;
     margin: auto;
+    width: 900px;
+    height: 450px;
 }
